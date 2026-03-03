@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="no">0</div>
+    <button id="btn">click Me</button>
+
+    <script>
+        document.getElementById("btn").addEventListener("click",() =>{
+            num = parseInt(document.getElementById("no").innerHTML)
+            document.getElementById("no").innerHTML=(num +1)
+        })
+    </script>
+</body>
+</html>
