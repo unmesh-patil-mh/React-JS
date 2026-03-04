@@ -1,0 +1,9 @@
+.cards{
+    margin: 10px;
+    width: 20vw;
+    height: 45vh;
+    overflow: hidden;
+    background: rgb(72, 72, 72);
+    color: white;
+    text-align: center;
+}
