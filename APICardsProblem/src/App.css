@@ -1,0 +1,80 @@
+/* Smooth Scroll Effect */
+html{
+  scroll-behavior: smooth;
+}
+
+/* Page Styling */
+body{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:#f5f7fb;
+}
+
+/* Container for all cards */
+.cards-container{
+  width:90%;
+  margin:auto;
+  margin-top:40px;
+
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:30px;
+}
+
+/* Individual Card */
+.maindiv{
+  background:white;
+  padding:20px;
+  border-radius:10px;
+  box-shadow:0px 4px 10px rgba(0,0,0,0.1);
+
+  transition: all 0.3s ease;
+  cursor:pointer;
+}
+
+/* Hover Effect */
+.maindiv:hover{
+  transform: translateY(-10px) scale(1.03);
+  box-shadow:0px 12px 25px rgba(0,0,0,0.2);
+}
+
+/* Card Content Styling */
+.userid{
+  font-size:14px;
+  color:#555;
+  margin-bottom:5px;
+}
+
+.id{
+  font-size:14px;
+  color:#777;
+  margin-bottom:10px;
+}
+
+.title{
+  font-size:18px;
+  font-weight:bold;
+  margin-bottom:10px;
+  color:#222;
+  text-transform:capitalize;
+}
+
+.body{
+  font-size:14px;
+  color:#444;
+  line-height:1.5;
+}
+
+/* Tablet Responsive */
+@media (max-width:900px){
+  .cards-container{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile Responsive */
+@media (max-width:600px){
+  .cards-container{
+    grid-template-columns: 1fr;
+  }
+}
