@@ -97,7 +97,7 @@ Follow these steps to run the React project locally.
 ## Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/react-projects.git
+git clone https://github.com/unmesh-patil-mh/react-projects.git
 ```
 
 ---
