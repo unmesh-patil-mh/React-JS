@@ -261,7 +261,7 @@ This project is open-source and available for learning purposes.
 
 **Unmesh Patil**
 
-GitHub: https://github.com/unmesh-patil-mh  
+- GitHub: https://github.com/unmesh-patil-mh  
 LinkedIn: https://linkedin.com/in/unmeshpatil2005 <br>
 Leetcode: https://leetcode.com/u/unmesh3010
 
